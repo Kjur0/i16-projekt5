@@ -1,0 +1,42 @@
+header {
+	position: sticky;
+	top: 0px;
+	margin: -8px;
+	background-color: palegoldenrod;
+	opacity: 0.75;
+}
+header h1,
+h4 {
+	margin-top: 0px;
+	text-align: center;
+	color: goldenrod;
+}
+footer {
+	position: sticky;
+	bottom: 0px;
+	margin: -8px;
+	background-color: palegreen;
+	opacity: 0.5;
+}
+footer h3 {
+	margin-bottom: 0px;
+	text-align: center;
+	color: green;
+}
+table {
+	border-spacing: 0px;
+	border: 2px solid steelblue;
+}
+th {
+	color: white;
+	background-color: midnightblue;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid steelblue;
+}
+td {
+	color: black;
+	background-color: white;
+	vertical-align: middle;
+	border: 1px solid steelblue;
+}
