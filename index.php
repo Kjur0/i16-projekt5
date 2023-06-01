@@ -11,11 +11,7 @@
 </head>
 
 <body>
-	<header>
-		<h1>Kraina figur</h1>
-		<h4><i><?php echo array('“Matematyka jest królową nauk i arytmetyką jej diademem.” - Carl Friedrich Gauss', '“Programowanie to sztuka, która polega na ukrywaniu szczegółów przed samym sobą i przed innymi.” - Harold Abelson', '“Matematyka jest językiem, w którym Bóg stworzył świat.” - Galileo Galilei', '“Programowanie to jedna z niewielu dziedzin, w której możesz być błędny przez wiele lat i wciąż odnosić sukcesy.” - David Heinemeier Hansson', '“Matematyka jest sztuką dawania odpowiedzi na pytania, o których nie wiemy nic.” - Andre Weil')[rand(0, 4)]; ?></i></h4>
-		<hr>
-	</header>
+	<?php include "head.php";?>
 	<form method="post" action="calc.php">
 		Wybierz figury do obliczenia pola: <br>
 		<input type="checkbox" name="trojkat_p" id="trojkat_p" onclick="reloadform()"><label for="trojkat_p">Trójkąt</label><br>
@@ -46,9 +42,7 @@
 
 		<input type="submit" value="Oblicz">
 	</form>
-	<footer>
-		<h3>Krzysztof Jurkowski, 19.05.2023</h3>
-	</footer>
+	<?php include "foot.php";?>
 </body>
 
 </html>
